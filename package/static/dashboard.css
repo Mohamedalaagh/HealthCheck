@@ -1,0 +1,103 @@
+/* Dashboard Layout */
+.dashboard-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; /* Use min-height instead of height */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 300px;
+    background: #004152;
+    color: white;
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fixed sidebar */
+}
+
+.user-info {
+    text-align: center;
+}
+
+.user-img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Main Content Section */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: #f5f5f5;
+    margin-left: 320px; /* Account for the fixed sidebar */
+    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Welcome Section Styling */
+#welcome-sections {
+    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: white; /* Text color */
+    font-family: 'Arial', sans-serif; /* Modern font */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+}
+
+.welcome-message h1 {
+    font-size: 2.5rem; /* Keep the size as it is */
+    margin-bottom: 10px; /* Space between heading and paragraph */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+}
+
+.welcome-message h1 span {
+    color: #ffdd57; /* Highlight the username with a different color */
+    font-weight: bold;
+}
+
+.welcome-message p {
+    font-size: 1.2rem; /* Keep the size as it is */
+    margin-top: 10px; /* Space between heading and paragraph */
+    font-style: italic;
+    opacity: 0.9; /* Slightly transparent for a modern look */
+}
+
+/* Health Data Form and Edit Info Form Styling */
+.content-section {
+    display: none; /* Hide sections by default */
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space between sections */
+}
+
+/* Form Inputs and Buttons Styling */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}

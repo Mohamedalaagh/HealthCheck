@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>HealthCheck API</title>
+    {% endif %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    {% block extra_styles %}{% endblock %}
+</head>
+<body>
+    <header>
+        <div class="logo">HealthCheck</div>
+        <nav>
+            <a href="{{ url_for('home') }}">🏠 Home</a>
+            
+            {% if current_user.is_authenticated %}
+                <a href="{{ url_for('dashboard') }}">📊 Dashboard</a>
+                <span class="username-display">👤 {{ current_user.username }}</span>
+                <a href="{{ url_for('logout') }}">🚪 Logout</a>
+            {% else %}
+                <a href="{{ url_for('register') }}">📝 Register</a>
+                <a href="{{ url_for('login') }}">🔑 Login</a>
+            {% endif %}
+            
+            <a href="{{ url_for('about') }}">ℹ️ About</a>
+            <a href="{{ url_for('contact') }}">📧 Contact</a>
+        </nav>
+    </header>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="flash-message {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    {% block content%}
+    {% endblock%}
+    <footer>
+        <p>Connect with us:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">📘</a>
+            <a href="https://www.youtube.com" target="_blank">📺</a>
+            <a href="https://www.instagram.com" target="_blank">📸</a>
+        </div>
+    </footer>
+</body>
+</html>
