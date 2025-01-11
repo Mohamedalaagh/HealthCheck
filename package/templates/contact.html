@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}
+{% block content %}
+<style>
+    /* Contact Page Styles */
+    .contact-page {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .contact-page h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .contact-page .email {
+        font-size: 1.4rem;
+        color: #3498db;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+
+    .contact-page .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .contact-page .social-links a {
+        text-decoration: none;
+        color: #2c3e50;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+
+    .contact-page .social-links a:hover {
+        color: #3498db;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .contact-page h1 {
+            font-size: 2rem;
+        }
+
+        .contact-page .email {
+            font-size: 1.2rem;
+        }
+
+        .contact-page .social-links {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+
+<div class="contact-page">
+    <h1>Contact Us</h1>
+    <p class="email">mohamedalaaeid80@gmail.com</p>
+
+    <div class="social-links">
+        <a href="#facebook">📘 Facebook</a>
+        <a href="#twitter">🐦 Twitter</a>
+        <a href="#instagram">📸 Instagram</a>
+        <a href="#linkedin">🔗 LinkedIn</a>
+        <a href="#youtube">📺 YouTube</a>
+        <a href="https://github.com/Mohamedalaagh">🐙 GitHub</a>
+        <a href="#whatsapp">📱 WhatsApp</a>
+        <a href="#telegram">✉️ Telegram</a>
+    </div>
+</div>
+{% endblock %}

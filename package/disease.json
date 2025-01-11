@@ -1,0 +1,1666 @@
+[
+    {
+        "name": "Heart Attack",
+        "type": "Cardiovascular",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Stress management",
+            "Regular checkups"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Heart_attack"
+    },
+    {
+        "name": "Diabetes",
+        "type": "Metabolic",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Balanced diet",
+            "Regular exercise",
+            "Weight management",
+            "Blood sugar monitoring",
+            "Medication adherence"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Diabetes"
+    },
+    {
+        "name": "COVID-19",
+        "type": "Infectious",
+        "danger_percentage": "90%",
+        "best_practices": [
+            "Vaccination",
+            "Mask wearing",
+            "Hand hygiene",
+            "Social distancing",
+            "Ventilation"
+        ],
+        "link": "https://en.wikipedia.org/wiki/COVID-19"
+    },
+    {
+        "name": "Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "No smoking",
+            "Limit alcohol",
+            "Sun protection"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Cancer"
+    },
+    {
+        "name": "Stroke",
+        "type": "Cardiovascular",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Blood pressure control",
+            "Stress management"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Stroke"
+    },
+    {
+        "name": "Alzheimer's Disease",
+        "type": "Neurological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Mental stimulation",
+            "Healthy diet",
+            "Regular exercise",
+            "Social engagement",
+            "Sleep hygiene"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Alzheimer%27s_disease"
+    },
+    {
+        "name": "HIV/AIDS",
+        "type": "Infectious",
+        "danger_percentage": "95%",
+        "best_practices": [
+            "Safe sex",
+            "Antiretroviral therapy",
+            "Needle safety",
+            "Regular testing",
+            "Education"
+        ],
+        "link": "https://en.wikipedia.org/wiki/HIV/AIDS"
+    },
+    {
+        "name": "Malaria",
+        "type": "Infectious",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "Mosquito nets",
+            "Insect repellent",
+            "Antimalarial drugs",
+            "Environmental control",
+            "Early treatment"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Malaria"
+    },
+    {
+        "name": "Tuberculosis",
+        "type": "Infectious",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Vaccination",
+            "Proper ventilation",
+            "Early diagnosis",
+            "Medication adherence",
+            "Infection control"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Tuberculosis"
+    },
+    {
+        "name": "Influenza",
+        "type": "Infectious",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Vaccination",
+            "Hand hygiene",
+            "Mask wearing",
+            "Social distancing",
+            "Rest"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Influenza"
+    },
+    {
+        "name": "Pneumonia",
+        "type": "Infectious",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Vaccination",
+            "Hand hygiene",
+            "No smoking",
+            "Healthy diet",
+            "Rest"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pneumonia"
+    },
+    {
+        "name": "Hepatitis B",
+        "type": "Infectious",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "Vaccination",
+            "Safe sex",
+            "Needle safety",
+            "Avoid alcohol",
+            "Regular testing"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hepatitis_B"
+    },
+    {
+        "name": "Hepatitis C",
+        "type": "Infectious",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Antiviral therapy",
+            "Needle safety",
+            "Avoid alcohol",
+            "Regular testing",
+            "Safe sex"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hepatitis_C"
+    },
+    {
+        "name": "Dengue Fever",
+        "type": "Infectious",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Mosquito control",
+            "Hydration",
+            "Rest",
+            "Pain management",
+            "Early treatment"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Dengue_fever"
+    },
+    {
+        "name": "Cholera",
+        "type": "Infectious",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Clean water",
+            "Hand hygiene",
+            "Proper sanitation",
+            "Vaccination",
+            "Oral rehydration"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Cholera"
+    },
+    {
+        "name": "Ebola",
+        "type": "Infectious",
+        "danger_percentage": "95%",
+        "best_practices": [
+            "Isolation",
+            "Protective gear",
+            "Safe burial",
+            "Early treatment",
+            "Education"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ebola"
+    },
+    {
+        "name": "Zika Virus",
+        "type": "Infectious",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Mosquito control",
+            "Safe sex",
+            "Pregnancy precautions",
+            "Travel restrictions",
+            "Education"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Zika_virus"
+    },
+    {
+        "name": "Lyme Disease",
+        "type": "Infectious",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Tick prevention",
+            "Early treatment",
+            "Protective clothing",
+            "Insect repellent",
+            "Tick checks"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lyme_disease"
+    },
+    {
+        "name": "Asthma",
+        "type": "Respiratory",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Avoid triggers",
+            "Inhalers",
+            "Regular checkups",
+            "Healthy diet",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Asthma"
+    },
+    {
+        "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "type": "Respiratory",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "No smoking",
+            "Oxygen therapy",
+            "Pulmonary rehab",
+            "Healthy diet",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease"
+    },
+    {
+        "name": "Hypertension",
+        "type": "Cardiovascular",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Stress management",
+            "Medication adherence"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hypertension"
+    },
+    {
+        "name": "Obesity",
+        "type": "Metabolic",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular exercise",
+            "Portion control",
+            "Behavioral therapy",
+            "Sleep hygiene"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Obesity"
+    },
+    {
+        "name": "Arthritis",
+        "type": "Musculoskeletal",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Exercise",
+            "Weight management",
+            "Pain relief",
+            "Healthy diet",
+            "Physical therapy"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Arthritis"
+    },
+    {
+        "name": "Osteoporosis",
+        "type": "Musculoskeletal",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Calcium intake",
+            "Vitamin D",
+            "Weight-bearing exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Osteoporosis"
+    },
+    {
+        "name": "Gout",
+        "type": "Metabolic",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Healthy diet",
+            "Hydration",
+            "Weight management",
+            "Medication adherence",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gout"
+    },
+    {
+        "name": "Migraine",
+        "type": "Neurological",
+        "danger_percentage": "45%",
+        "best_practices": [
+            "Stress management",
+            "Regular sleep",
+            "Hydration",
+            "Medication adherence",
+            "Avoid triggers"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Migraine"
+    },
+    {
+        "name": "Epilepsy",
+        "type": "Neurological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Medication adherence",
+            "Regular sleep",
+            "Stress management",
+            "Avoid triggers",
+            "Safety precautions"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Epilepsy"
+    },
+    {
+        "name": "Parkinson's Disease",
+        "type": "Neurological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Medication adherence",
+            "Physical therapy",
+            "Healthy diet",
+            "Exercise",
+            "Speech therapy"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Parkinson%27s_disease"
+    },
+    {
+        "name": "Multiple Sclerosis",
+        "type": "Neurological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Medication adherence",
+            "Physical therapy",
+            "Healthy diet",
+            "Exercise",
+            "Stress management"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Multiple_sclerosis"
+    },
+    {
+        "name": "Autism Spectrum Disorder",
+        "type": "Neurological",
+        "danger_percentage": "40%",
+        "best_practices": [
+            "Early intervention",
+            "Behavioral therapy",
+            "Speech therapy",
+            "Social skills training",
+            "Parental support"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Autism_spectrum"
+    },
+    {
+        "name": "Schizophrenia",
+        "type": "Psychiatric",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Medication adherence",
+            "Therapy",
+            "Social support",
+            "Healthy diet",
+            "Regular sleep"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Schizophrenia"
+    },
+    {
+        "name": "Bipolar Disorder",
+        "type": "Psychiatric",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Medication adherence",
+            "Therapy",
+            "Regular sleep",
+            "Stress management",
+            "Social support"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Bipolar_disorder"
+    },
+    {
+        "name": "Depression",
+        "type": "Psychiatric",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Exercise",
+            "Social support",
+            "Healthy diet"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Depression_(mood_disorder)"
+    },
+    {
+        "name": "Anxiety Disorders",
+        "type": "Psychiatric",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Exercise",
+            "Stress management",
+            "Healthy diet"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Anxiety_disorder"
+    },
+    {
+        "name": "Obsessive-Compulsive Disorder (OCD)",
+        "type": "Psychiatric",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Stress management",
+            "Healthy diet",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder"
+    },
+    {
+        "name": "Post-Traumatic Stress Disorder (PTSD)",
+        "type": "Psychiatric",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Social support",
+            "Healthy diet",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder"
+    },
+    {
+        "name": "Attention Deficit Hyperactivity Disorder (ADHD)",
+        "type": "Psychiatric",
+        "danger_percentage": "45%",
+        "best_practices": [
+            "Medication adherence",
+            "Behavioral therapy",
+            "Healthy diet",
+            "Exercise",
+            "Regular sleep"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder"
+    },
+    {
+        "name": "Insomnia",
+        "type": "Sleep Disorder",
+        "danger_percentage": "40%",
+        "best_practices": [
+            "Sleep hygiene",
+            "Stress management",
+            "Regular sleep schedule",
+            "Limit caffeine",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Insomnia"
+    },
+    {
+        "name": "Sleep Apnea",
+        "type": "Sleep Disorder",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Weight management",
+            "CPAP therapy",
+            "Sleep hygiene",
+            "Limit alcohol",
+            "No smoking"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Sleep_apnea"
+    },
+    {
+        "name": "Chronic Kidney Disease",
+        "type": "Renal",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Hydration",
+            "Blood pressure control",
+            "Medication adherence",
+            "Regular checkups"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Chronic_kidney_disease"
+    },
+    {
+        "name": "Kidney Stones",
+        "type": "Renal",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Hydration",
+            "Healthy diet",
+            "Limit salt",
+            "Limit oxalates",
+            "Medication adherence"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Kidney_stone_disease"
+    },
+    {
+        "name": "Urinary Tract Infection (UTI)",
+        "type": "Infectious",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Hydration",
+            "Cranberry juice",
+            "Proper hygiene",
+            "Urinate frequently",
+            "Antibiotics"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Urinary_tract_infection"
+    },
+    {
+        "name": "Prostate Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Regular screening",
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Prostate_cancer"
+    },
+    {
+        "name": "Breast Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Regular screening",
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Breast_cancer"
+    },
+    {
+        "name": "Lung Cancer",
+        "type": "Oncological",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Exercise",
+            "Regular screening",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lung_cancer"
+    },
+    {
+        "name": "Colorectal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Colorectal_cancer"
+    },
+    {
+        "name": "Skin Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Sun protection",
+            "Regular screening",
+            "No smoking",
+            "Healthy diet",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Skin_cancer"
+    },
+    {
+        "name": "Leukemia",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Leukemia"
+    },
+    {
+        "name": "Lymphoma",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lymphoma"
+    },
+    {
+        "name": "Pancreatic Cancer",
+        "type": "Oncological",
+        "danger_percentage": "90%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pancreatic_cancer"
+    },
+    {
+        "name": "Ovarian Cancer",
+        "type": "Oncological",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ovarian_cancer"
+    },
+    {
+        "name": "Cervical Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "HPV vaccination",
+            "Regular screening",
+            "Healthy diet",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Cervical_cancer"
+    },
+    {
+        "name": "Hypertension",
+        "type": "Cardiovascular",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Stress management",
+            "Medication adherence"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hypertension"
+    },
+    {
+        "name": "Obesity",
+        "type": "Metabolic",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular exercise",
+            "Portion control",
+            "Behavioral therapy",
+            "Sleep hygiene"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Obesity"
+    },
+    {
+        "name": "Arthritis",
+        "type": "Musculoskeletal",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Exercise",
+            "Weight management",
+            "Pain relief",
+            "Healthy diet",
+            "Physical therapy"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Arthritis"
+    },
+    {
+        "name": "Osteoporosis",
+        "type": "Musculoskeletal",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Calcium intake",
+            "Vitamin D",
+            "Weight-bearing exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Osteoporosis"
+    },
+    {
+        "name": "Gout",
+        "type": "Metabolic",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Healthy diet",
+            "Hydration",
+            "Weight management",
+            "Medication adherence",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gout"
+    },
+    {
+        "name": "Migraine",
+        "type": "Neurological",
+        "danger_percentage": "45%",
+        "best_practices": [
+            "Stress management",
+            "Regular sleep",
+            "Hydration",
+            "Medication adherence",
+            "Avoid triggers"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Migraine"
+    },
+    {
+        "name": "Epilepsy",
+        "type": "Neurological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Medication adherence",
+            "Regular sleep",
+            "Stress management",
+            "Avoid triggers",
+            "Safety precautions"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Epilepsy"
+    },
+    {
+        "name": "Parkinson's Disease",
+        "type": "Neurological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Medication adherence",
+            "Physical therapy",
+            "Healthy diet",
+            "Exercise",
+            "Speech therapy"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Parkinson%27s_disease"
+    },
+    {
+        "name": "Multiple Sclerosis",
+        "type": "Neurological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Medication adherence",
+            "Physical therapy",
+            "Healthy diet",
+            "Exercise",
+            "Stress management"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Multiple_sclerosis"
+    },
+    {
+        "name": "Autism Spectrum Disorder",
+        "type": "Neurological",
+        "danger_percentage": "40%",
+        "best_practices": [
+            "Early intervention",
+            "Behavioral therapy",
+            "Speech therapy",
+            "Social skills training",
+            "Parental support"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Autism_spectrum"
+    },
+    {
+        "name": "Schizophrenia",
+        "type": "Psychiatric",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Medication adherence",
+            "Therapy",
+            "Social support",
+            "Healthy diet",
+            "Regular sleep"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Schizophrenia"
+    },
+    {
+        "name": "Bipolar Disorder",
+        "type": "Psychiatric",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Medication adherence",
+            "Therapy",
+            "Regular sleep",
+            "Stress management",
+            "Social support"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Bipolar_disorder"
+    },
+    {
+        "name": "Depression",
+        "type": "Psychiatric",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Exercise",
+            "Social support",
+            "Healthy diet"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Depression_(mood_disorder)"
+    },
+    {
+        "name": "Anxiety Disorders",
+        "type": "Psychiatric",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Exercise",
+            "Stress management",
+            "Healthy diet"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Anxiety_disorder"
+    },
+    {
+        "name": "Obsessive-Compulsive Disorder (OCD)",
+        "type": "Psychiatric",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Stress management",
+            "Healthy diet",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder"
+    },
+    {
+        "name": "Post-Traumatic Stress Disorder (PTSD)",
+        "type": "Psychiatric",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Therapy",
+            "Medication adherence",
+            "Social support",
+            "Healthy diet",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder"
+    },
+    {
+        "name": "Attention Deficit Hyperactivity Disorder (ADHD)",
+        "type": "Psychiatric",
+        "danger_percentage": "45%",
+        "best_practices": [
+            "Medication adherence",
+            "Behavioral therapy",
+            "Healthy diet",
+            "Exercise",
+            "Regular sleep"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder"
+    },
+    {
+        "name": "Insomnia",
+        "type": "Sleep Disorder",
+        "danger_percentage": "40%",
+        "best_practices": [
+            "Sleep hygiene",
+            "Stress management",
+            "Regular sleep schedule",
+            "Limit caffeine",
+            "Exercise"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Insomnia"
+    },
+    {
+        "name": "Sleep Apnea",
+        "type": "Sleep Disorder",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Weight management",
+            "CPAP therapy",
+            "Sleep hygiene",
+            "Limit alcohol",
+            "No smoking"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Sleep_apnea"
+    },
+    {
+        "name": "Chronic Kidney Disease",
+        "type": "Renal",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Hydration",
+            "Blood pressure control",
+            "Medication adherence",
+            "Regular checkups"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Chronic_kidney_disease"
+    },
+    {
+        "name": "Kidney Stones",
+        "type": "Renal",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Hydration",
+            "Healthy diet",
+            "Limit salt",
+            "Limit oxalates",
+            "Medication adherence"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Kidney_stone_disease"
+    },
+    {
+        "name": "Urinary Tract Infection (UTI)",
+        "type": "Infectious",
+        "danger_percentage": "50%",
+        "best_practices": [
+            "Hydration",
+            "Cranberry juice",
+            "Proper hygiene",
+            "Urinate frequently",
+            "Antibiotics"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Urinary_tract_infection"
+    },
+    {
+        "name": "Prostate Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Regular screening",
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Prostate_cancer"
+    },
+    {
+        "name": "Breast Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Regular screening",
+            "Healthy diet",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Breast_cancer"
+    },
+    {
+        "name": "Lung Cancer",
+        "type": "Oncological",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Exercise",
+            "Regular screening",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lung_cancer"
+    },
+    {
+        "name": "Colorectal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Colorectal_cancer"
+    },
+    {
+        "name": "Skin Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Sun protection",
+            "Regular screening",
+            "No smoking",
+            "Healthy diet",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Skin_cancer"
+    },
+    {
+        "name": "Leukemia",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Leukemia"
+    },
+    {
+        "name": "Lymphoma",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lymphoma"
+    },
+    {
+        "name": "Pancreatic Cancer",
+        "type": "Oncological",
+        "danger_percentage": "90%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pancreatic_cancer"
+    },
+    {
+        "name": "Ovarian Cancer",
+        "type": "Oncological",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ovarian_cancer"
+    },
+    {
+        "name": "Cervical Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "HPV vaccination",
+            "Regular screening",
+            "Healthy diet",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Cervical_cancer"
+    },
+    {
+        "name": "Endometrial Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Endometrial_cancer"
+    },
+    {
+        "name": "Bladder Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "No smoking",
+            "Hydration",
+            "Healthy diet",
+            "Regular screening",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Bladder_cancer"
+    },
+    {
+        "name": "Thyroid Cancer",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Thyroid_cancer"
+    },
+    {
+        "name": "Melanoma",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Sun protection",
+            "Regular screening",
+            "No smoking",
+            "Healthy diet",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Melanoma"
+    },
+    {
+        "name": "Non-Hodgkin Lymphoma",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Non-Hodgkin_lymphoma"
+    },
+    {
+        "name": "Hodgkin Lymphoma",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hodgkin%27s_lymphoma"
+    },
+    {
+        "name": "Multiple Myeloma",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Multiple_myeloma"
+    },
+    {
+        "name": "Esophageal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Esophageal_cancer"
+    },
+    {
+        "name": "Stomach Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Stomach_cancer"
+    },
+    {
+        "name": "Liver Cancer",
+        "type": "Oncological",
+        "danger_percentage": "85%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Liver_cancer"
+    },
+    {
+        "name": "Gallbladder Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gallbladder_cancer"
+    },
+    {
+        "name": "Kidney Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Kidney_cancer"
+    },
+    {
+        "name": "Brain Cancer",
+        "type": "Oncological",
+        "danger_percentage": "80%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Brain_tumor"
+    },
+    {
+        "name": "Bone Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Bone_cancer"
+    },
+    {
+        "name": "Testicular Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Testicular_cancer"
+    },
+    {
+        "name": "Oral Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Oral_cancer"
+    },
+    {
+        "name": "Pharyngeal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "75%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pharyngeal_cancer"
+    },
+    {
+        "name": "Laryngeal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Laryngeal_cancer"
+    },
+    {
+        "name": "Nasopharyngeal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Nasopharyngeal_carcinoma"
+    },
+    {
+        "name": "Salivary Gland Cancer",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Salivary_gland_cancer"
+    },
+    {
+        "name": "Adrenal Cancer",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Adrenal_cancer"
+    },
+    {
+        "name": "Pituitary Cancer",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pituitary_tumor"
+    },
+    {
+        "name": "Thymus Cancer",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Thymoma"
+    },
+    {
+        "name": "Mesothelioma",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "No smoking",
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Mesothelioma"
+    },
+    {
+        "name": "Kaposi Sarcoma",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Kaposi%27s_sarcoma"
+    },
+    {
+        "name": "Wilms Tumor",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Wilms_tumor"
+    },
+    {
+        "name": "Retinoblastoma",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Retinoblastoma"
+    },
+    {
+        "name": "Neuroblastoma",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Neuroblastoma"
+    },
+    {
+        "name": "Ewing Sarcoma",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Ewing_sarcoma"
+    },
+    {
+        "name": "Osteosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "70%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Osteosarcoma"
+    },
+    {
+        "name": "Chondrosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Chondrosarcoma"
+    },
+    {
+        "name": "Gastrointestinal Stromal Tumor (GIST)",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Gastrointestinal_stromal_tumor"
+    },
+    {
+        "name": "Carcinoid Tumor",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Carcinoid_tumor"
+    },
+    {
+        "name": "Pheochromocytoma",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Pheochromocytoma"
+    },
+    {
+        "name": "Paraganglioma",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Paraganglioma"
+    },
+    {
+        "name": "Merkel Cell Carcinoma",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Merkel_cell_carcinoma"
+    },
+    {
+        "name": "Angiosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Angiosarcoma"
+    },
+    {
+        "name": "Liposarcoma",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Liposarcoma"
+    },
+    {
+        "name": "Rhabdomyosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Rhabdomyosarcoma"
+    },
+    {
+        "name": "Synovial Sarcoma",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Synovial_sarcoma"
+    },
+    {
+        "name": "Fibrosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Fibrosarcoma"
+    },
+    {
+        "name": "Leiomyosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "65%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Leiomyosarcoma"
+    },
+    {
+        "name": "Hemangiosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "60%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Hemangiosarcoma"
+    },
+    {
+        "name": "Lymphangiosarcoma",
+        "type": "Oncological",
+        "danger_percentage": "55%",
+        "best_practices": [
+            "Healthy diet",
+            "Regular screening",
+            "Exercise",
+            "No smoking",
+            "Limit alcohol"
+        ],
+        "link": "https://en.wikipedia.org/wiki/Lymphangiosarcoma"
+    }
+]

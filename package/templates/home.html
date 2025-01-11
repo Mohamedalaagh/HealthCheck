@@ -1,16 +1,59 @@
-{% extends "layout.html"%}
-{% block content%}
-    <main>
-        <section class="welcome">
-            <h1>Welcome to HealthCheck</h1>
-            <p>Your personalized health tracking solution. Monitor your steps, water intake, sleep, and calories with ease.</p>
-            <button class="get-started">Get Started</button>
+{% extends "layout.html" %}
+{% block extra_styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <main class="homepage">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to <span>HealthCheck</span></h1>
+                <p class="tagline">Your personalized health tracking solution. Monitor your steps, water intake, sleep, and calories with ease.</p>
+                <a href="{{ url_for('dashboard') }}" class="get-started-btn">Get Started</a>
+            </div>
+            <!-- Image Placeholder -->
+            <div class="hero-image">
+                <img src="{{ url_for('static', filename='images/hero-image.png') }}" alt="HealthCheck Hero Image">
+            </div>
         </section>
 
-        <section class="dynamic-content">
-            <h2>Recent Health Stats</h2>
-            <p>Log in to view your latest health data and insights.</p>
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Why Choose HealthCheck?</h2>
+            <div class="feature-cards">
+                <!-- Feature 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ url_for('static', filename='images/feature1.png') }}" alt="Feature 1">
+                    </div>
+                    <h3>Track Your Health</h3>
+                    <p>Monitor daily metrics like steps, water intake, sleep, and more.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ url_for('static', filename='images/feature2.png') }}" alt="Feature 2">
+                    </div>
+                    <h3>Set Health Goals</h3>
+                    <p>Create and achieve personalized health goals with ease.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ url_for('static', filename='images/feature3.png') }}" alt="Feature 3">
+                    </div>
+                    <h3>Get Insights</h3>
+                    <p>Visualize your progress with charts and actionable insights.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <h2>Ready to Take Control of Your Health?</h2>
+            <p>Join thousands of users who are already improving their health with HealthCheck.</p>
+            <a href="{{ url_for('dashboard') }}" class="get-started-btn">Get Started</a>
         </section>
     </main>
-{%endblock%}
-
+{% endblock %}

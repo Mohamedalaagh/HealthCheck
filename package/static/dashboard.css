@@ -2,90 +2,119 @@
 .dashboard-container {
     display: flex;
     width: 100%;
-    min-height: 100vh; /* Use min-height instead of height */
+    min-height: 100vh;
 }
 
 /* Sidebar Styling */
 .sidebar {
     width: 300px;
-    background: #004152;
+    background: linear-gradient(135deg, #3d0974, #1e55b3);
     color: white;
     padding: 20px;
-    height: 100vh; /* Full viewport height */
-    position: fixed; /* Fixed sidebar */
+    height: 100vh; /* Full height */
+    position: fixed;
+    top: 0; /* Start from top */
+    left: 0; /* Start from left */
+    overflow-y: auto;
+    z-index: 1000; /* Ensure sidebar stays on top */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push home icon to the bottom */
 }
 
 .user-info {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .user-img {
     width: 120px;
     height: 120px;
     border: 3px solid white;
+    object-fit: cover; /* Ensure the image fits well */
 }
 
 .username {
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;
+    color: #ffdd57; /* Highlight username */
+}
+
+.btn-sidebar {
+    width: 100%;
+    background: #28a745;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn-sidebar:hover {
+    background: #218838;
+}
+
+.home-icon {
+    margin-top: auto; /* Push to the bottom */
 }
 
 /* Main Content Section */
 .main-content {
     flex: 1;
     padding: 20px;
-    background: #f5f5f5;
     margin-left: 320px; /* Account for the fixed sidebar */
-    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Welcome Section Styling */
 #welcome-sections {
     text-align: center;
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
-    color: white; /* Text color */
-    font-family: 'Arial', sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background for the welcome message */
+    color: white;
+    font-family: 'Arial', sans-serif;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px; /* Limit maximum width */
+    width: 80%;
+    max-width: 800px;
 }
 
 .welcome-message h1 {
-    font-size: 2.5rem; /* Keep the size as it is */
-    margin-bottom: 10px; /* Space between heading and paragraph */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .welcome-message h1 span {
-    color: #ffdd57; /* Highlight the username with a different color */
+    color: #ffdd57;
     font-weight: bold;
 }
 
 .welcome-message p {
-    font-size: 1.2rem; /* Keep the size as it is */
-    margin-top: 10px; /* Space between heading and paragraph */
+    font-size: 1.2rem;
+    margin-top: 10px;
     font-style: italic;
-    opacity: 0.9; /* Slightly transparent for a modern look */
+    opacity: 0.9;
 }
 
-/* Health Data Form and Edit Info Form Styling */
+/* Edit Info Form Styling */
 .content-section {
-    display: none; /* Hide sections by default */
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px; /* Limit maximum width */
-    background: white;
-    padding: 20px;
+    display: none;
+    width: 90%;
+    max-width: 800px;
+    background: white; /* White background for the form */
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Space between sections */
+    margin-top: 20px;
 }
 
 /* Form Inputs and Buttons Styling */
@@ -101,3 +130,351 @@ button {
     padding: 10px;
     cursor: pointer;
 }
+
+
+/* Edit Info Form Styling - More Creative and Larger */
+#edit-info {
+    display: none;
+    width: 90%;
+    max-width: 900px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    border: 2px solid #ff6b6b;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Form Title Styling */
+#edit-info h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3d0974;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form Group Styling */
+#edit-info .form-group {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Input Field Styling */
+#edit-info input[type="text"], 
+#edit-info input[type="email"], 
+#edit-info input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    font-size: 1.1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#edit-info input:focus {
+    border-color: #3d0974;
+    box-shadow: 0 0 20px rgba(61, 9, 116, 0.5);
+}
+
+/* Readonly Styling */
+#edit-info input[readonly] {
+    background-color: #eee;
+    color: #555;
+    cursor: not-allowed;
+}
+
+/* Button Styling */
+#edit-info button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    background: #3d0974;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    transition: background 0.3s;
+}
+
+#edit-info button:hover {
+    background: #1e55b3;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(30, 85, 179, 0.5);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+/* Medical History Section */
+#medical-history {
+    display: none;
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#medical-history h2 {
+    font-size: 2rem;
+    color: #3d0974;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#disease-search {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#add-disease-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #3d0974;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-disease-btn:hover {
+    background: #1e55b3;
+}
+
+#medical-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#medical-history-table th,
+#medical-history-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#medical-history-table th {
+    background: #3d0974;
+    color: white;
+}
+
+#medical-history-table td ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#medical-history-table td a {
+    color: #3d0974;
+    text-decoration: none;
+}
+
+#medical-history-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Unique color for the Medical History button */
+.btn-medical-history {
+    background: #ff6b6b;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn-medical-history:hover {
+    background: #ff4757;
+}
+
+
+
+#medical-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#medical-history-table th,
+#medical-history-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#medical-history-table th {
+    background: #3d0974;
+    color: white;
+}
+
+#medical-history-table td ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#medical-history-table td a {
+    color: #3d0974;
+    text-decoration: none;
+}
+
+#medical-history-table td a:hover {
+    text-decoration: underline;
+}
+
+
+.remove-search-box {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#remove-disease-search {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#remove-disease-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#remove-disease-btn:hover {
+    background: #c82333;
+}
+
+
+
+/* Sidebar Styling */
+
+
+
+
+.sidebar {
+    width: 300px;
+    background: linear-gradient(135deg, #4b1563, #6d0140);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* User Info Section */
+.user-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3498db;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.user-img:hover {
+    transform: scale(1.1);
+    border-color: #1abc9c;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #eeff00;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styling - Consistent for all Buttons */
+.btn-sidebar, .btn-medical-history, .btn-metrics {
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Edit Info Button */
+.btn-sidebar:nth-child(3) { 
+    background: linear-gradient(135deg, #3498db, #2980b9); 
+}
+
+/* Functional Buttons (Same Style) */
+.btn-medical-history, .btn-metrics, .btn-sidebar:nth-child(6) {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-medical-history:hover, .btn-metrics:hover, .btn-sidebar:nth-child(6):hover {
+    background: linear-gradient(135deg, #c0392b, #a93226);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Button */
+.home-icon {
+    margin-top: auto;
+    width: 100%;
+}
+
+.home-icon .btn-sidebar {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+}
+
+.home-icon .btn-sidebar:hover {
+    background: linear-gradient(135deg, #16a085, #1abc9c);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Active Button Effect (Same for all) */
+.btn-sidebar.active, .btn-medical-history.active, .btn-metrics.active {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+

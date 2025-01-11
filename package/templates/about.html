@@ -1,0 +1,148 @@
+{% extends 'layout.html' %}
+{% block content %}
+<style>
+    /* About Page Styles */
+    .about-page {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .about-page h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .about-page p {
+        font-size: 1.1rem;
+        color: #555;
+        max-width: 800px;
+        margin: 0 auto 30px;
+        line-height: 1.8;
+    }
+
+    .about-page .mission {
+        background-color: #fff;
+        padding: 40px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        max-width: 800px;
+    }
+
+    .about-page .mission h2 {
+        font-size: 2rem;
+        color: #3498db;
+        margin-bottom: 20px;
+    }
+
+    .about-page .team {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .about-page .team-member {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .about-page .team-member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+
+    .about-page .team-member h3 {
+        font-size: 1.3rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .about-page .team-member p {
+        font-size: 1rem;
+        color: #777;
+    }
+
+    .about-page .cta {
+        margin-top: 60px;
+    }
+
+    .about-page .cta a {
+        background-color: #3498db;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .about-page .cta a:hover {
+        background-color: #2980b9;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .about-page h1 {
+            font-size: 2rem;
+        }
+
+        .about-page p {
+            font-size: 1rem;
+        }
+
+        .about-page .mission h2 {
+            font-size: 1.8rem;
+        }
+
+        .about-page .team {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-page .team-member {
+            max-width: 100%;
+        }
+    }
+</style>
+
+<div class="about-page">
+    <h1>About HealthCheck</h1>
+    <p>
+        HealthCheck is your personalized health tracking solution designed to help you monitor and improve your well-being. 
+        Whether you're tracking your daily steps, water intake, sleep, or calories, HealthCheck provides the tools you need 
+        to stay on top of your health goals.
+    </p>
+
+    <div class="mission">
+        <h2>Our Mission</h2>
+        <p>
+            At HealthCheck, our mission is to empower individuals to take control of their health by providing intuitive tools 
+            and actionable insights. We believe that small, consistent changes can lead to a healthier and happier life.
+        </p>
+    </div>
+
+    <div class="team">
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='images/team1.jpg') }}" alt="Team Member 1">
+            <h3>Mohamed Alaa</h3>
+            <p>Founder & CEO</p>
+            <p>Developer</p>
+        </div>
+    </div>
+
+    <div class="cta">
+        <a href="{{ url_for('register') }}">Join HealthCheck Today</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,11 +1,11 @@
-{% extends 'layout.html'%}
+{% extends 'layout.html' %}
 {% block extra_styles %}
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='form.css') }}">
- {% endblock %}
-{% block content%}
-<div style="justify-items: center;">
-<div class="form-container">
-    <h1>Register</h1>
+{% endblock %}
+{% block content %}
+<div class="form-page">
+    <div class="form-container">
+        <h1>Register</h1>
         <form method="POST">
             {{ form.hidden_tag() }}
 
@@ -72,11 +72,11 @@
             {{ form.submit(class="submit-button") }}
         </form>
 
-    <div class="haveaccount">
-        <small>
-            <a href="/login"> Already have an account</a>
-        </small>
+        <div class="haveaccount">
+            <small>
+                <a href="/login">Already have an account?</a>
+            </small>
+        </div>
     </div>
 </div>
-</div>
-{% endblock%}
+{% endblock %}
