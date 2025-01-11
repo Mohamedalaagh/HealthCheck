@@ -8,7 +8,6 @@ app = Flask(__name__)
 secret_key = secrets.token_hex(32)
 app.config['SECRET_KEY'] = secret_key
 
-# Configure the main database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///HealthCheckAPI.db'
 
 db = SQLAlchemy(app)

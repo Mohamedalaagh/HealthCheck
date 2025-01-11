@@ -1,64 +1,41 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     const metricsForm = document.getElementById('metrics-form');
 
-    // Handle form submission
     if (metricsForm) {
-        metricsForm.addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent default form submission
-
+        metricsForm.addEventListener('submit', async (event) => {
+            event.preventDefault();
             const formData = new FormData(metricsForm);
 
-            // Send form data to the server
-            fetch('/log-metrics', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'X-Requested-With': 'XMLHttpRequest' // Identify as an AJAX request
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.message) {
-                    alert(data.message); // Show success message
-                    metricsForm.reset(); // Reset the form
+            try {
+                const response = await fetch('/log-metrics', {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'X-Requested-With': 'XMLHttpRequest' }
+                });
 
-                    // Refresh the metrics table
-                    if (window.renderMetricsTable) {
-                        renderMetricsTable();
-                    }
-                } else if (data.error) {
-                    alert(data.error); // Show error message
+                const data = await response.json();
+                alert(data.message || data.error);
+                if (data.message) {
+                    metricsForm.reset();
+                    window.renderMetricsTable?.();
                 }
-            })
-            .catch(error => {
+            } catch (error) {
                 console.error('Error:', error);
                 alert('An error occurred while logging metrics.');
-            });
+            }
         });
     }
 
-    // Function to show/hide sections
-    function showSection(sectionId) {
-        // Hide all sections
-        document.querySelectorAll('.content-section').forEach(section => {
-            section.style.display = 'none';
-        });
-
-        // Hide the welcome message
+    window.showSection = (sectionId) => {
+        document.querySelectorAll('.content-section').forEach(section => section.style.display = 'none');
         document.getElementById('welcome-sections').style.display = 'none';
 
-        // Show the selected section
         const section = document.getElementById(sectionId);
         if (section) {
             section.style.display = 'block';
+            if (sectionId === 'metrics-insights') {
+                window.renderMetricsTable?.();
+            }
         }
-
-        // If the selected section is "metrics-insights", refresh the table
-        if (sectionId === 'metrics-insights' && window.renderMetricsTable) {
-            renderMetricsTable();
-        }
-    }
-
-    // Attach the showSection function to the window object
-    window.showSection = showSection;
+    };
 });
